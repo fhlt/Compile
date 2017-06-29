@@ -1,0 +1,15 @@
+/* 辗转相减法求最大公约数和最小公倍数 */
+program example;
+var
+     a,b,c,m,n:integer;
+begin
+read a;
+read b;
+m:=a;
+n:=b;
+while a>b or a<b do 
+	if a>b then a:=a-b else b:=b-a;
+write a;
+c:=m*n/a;
+write c;
+end.

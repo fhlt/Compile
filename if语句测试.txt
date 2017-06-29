@@ -1,0 +1,10 @@
+program example;
+begin
+if A and B and C>D
+	then if A<B 
+		then F := 1
+		else if A<B 
+			then F := 2
+			else F :=9
+	else G := G+1;
+end.

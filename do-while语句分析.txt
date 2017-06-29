@@ -1,0 +1,6 @@
+program example;
+var
+     a,b,c:integer;
+begin
+do if a<2 then a:=a+10 while a<10;
+end.

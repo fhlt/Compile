@@ -1,0 +1,6 @@
+program example;
+begin
+if x>0 and y>0 or z>0
+	then x:=x+y
+	else if(c>d) then a:=10;;
+end.

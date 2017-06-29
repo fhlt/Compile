@@ -1,0 +1,8 @@
+program example;
+var
+     a,b,c:integer;
+begin
+read b;
+for a:=1 to 2*b do 
+	if a/2>3 then write a;
+end.
